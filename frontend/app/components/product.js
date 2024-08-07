@@ -28,7 +28,7 @@ export default function Product(props) {
       </style>
         <div className="card border-1 rounded-3 pt-3 my-3">
           <Link href={`/product/${product._id}`} className="text-decoration-none">
-                <Image src={`${process.env.NEXT_PUBLIC_IMAGE_URL}${product.image}`} className="card-img-top mw-100" alt="..." width={280} height={250} layout="reponsive" objectFit="cover"/>
+                <Image src={`${process.env.NEXT_PUBLIC_IMAGE_URL}${product.image}`} className="card-img-top mw-100 img-fluid" alt="..." width={280} height={250} layout="reponsive" objectFit="cover"/>
           </Link>
           <div className="card-body text-success position-relative">
             <Link href={`/product/${product._id}`} className="text-decoration-none text-success">
