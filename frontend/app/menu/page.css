@@ -1,0 +1,18 @@
+.sticky-top .item:hover {
+    color: #198754!important;
+    border-bottom: 4px solid #198754!important;
+}
+
+.sticky-top .item {
+    border-bottom: 4px solid transparent!important;
+}
+
+.divider {
+    margin-top: -3px;
+}
+
+.item-active {
+    color: #198754!important;
+    border-bottom: 4px solid #198754!important;
+    padding-bottom: 1px;
+}

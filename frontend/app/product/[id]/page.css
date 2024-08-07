@@ -1,0 +1,15 @@
+.size-input label {
+    width: 84px;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.size-input input[type="radio"]:checked+label {
+    background-color: #E9ECEF;
+}
+
+.size-input input[type="radio"]:checked+label .bg-body-secondary {
+    background-color: #198754!important;
+    color: #fff;
+}
