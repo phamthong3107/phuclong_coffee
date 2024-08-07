@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['localhost'], // Thêm hostname của bạn vào đây
+        domains: ['phuclong-coffee-sever.vercel.app'], // Thêm hostname của bạn vào đây
     },
 };
 
